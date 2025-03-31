@@ -17,7 +17,7 @@ Welcome to the **FPGA Challenge 2025 Qualifying Round**! This competition challe
 You can access detailed information about the scoring system and datasets for both tasks via the following links:
 
 - 🖼️ **[Image Classification Task - Kaggle Page](#)**  
-- 🚨 **[Anomaly Detection Task - Kaggle Page]([#](https://www.kaggle.com/t/c9ef87ab568048f2b0dc0fdcda998fc1))**  
+- 🚨 **[Anomaly Detection Task - Kaggle Page](https://www.kaggle.com/t/c9ef87ab568048f2b0dc0fdcda998fc1)**  
 
 ### **Scoring Criteria**
 Your final score will be based on three key factors:  
