@@ -25,8 +25,9 @@ You can access detailed information about the scoring system and datasets for bo
 - **FPGA Model:** PYNQ-Z2
 ![Alt text](https://www.amd.com/content/dam/amd/en/images/products/boards/2410750-zynq-xc7z020-board-product.jpg)
 - **HLS Tool Version:** Xilinx Vitis HLS 2024.2  
-- **HLS Tool Installation Guide:**  
-
+- **HLS Tool Installation Guide:** - Coming Soon  
+- 
+---
 
 ### **Scoring Criteria**
 Your final score will be based on three key factors:  
