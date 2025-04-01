@@ -19,6 +19,15 @@ You can access detailed information about the scoring system and datasets for bo
 - 🖼️ **[Image Classification Task - Kaggle Page](#)** - Coming Soon  
 - 🚨 **[Anomaly Detection Task - Kaggle Page](#)**  - Coming Soon
 
+---
+
+## **Competition Environment Requirements**
+- **FPGA Model:** PYNQ-Z2
+![Alt text](https://www.amd.com/content/dam/amd/en/images/products/boards/2410750-zynq-xc7z020-board-product.jpg)
+- **HLS Tool Version:** Xilinx Vitis HLS 2024.2  
+- **HLS Tool Installation Guide:**  
+
+
 ### **Scoring Criteria**
 Your final score will be based on three key factors:  
 - **Accuracy**: Evaluated using the Kaggle competition test set.  
