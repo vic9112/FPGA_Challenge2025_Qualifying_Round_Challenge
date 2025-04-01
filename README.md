@@ -25,6 +25,8 @@ You can access detailed information about the scoring system and datasets for bo
 - **FPGA Model:** **PYNQ-Z2**
 <img src="./Figures/PYNQ-Z2-Large-scaled.jpg" alt="Pynq-z2 FPGA" width="400">
 
+- **hls4ml Version:** 1.1.0
+ 
 - **HLS Tool Version:** Xilinx Vitis HLS 2024.2  
   - **HLS Tool Installation Guide:** Coming Soon  
 
