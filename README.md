@@ -22,11 +22,12 @@ You can access detailed information about the scoring system and datasets for bo
 ---
 
 ## **Competition Environment Requirements**
-- **FPGA Model:** PYNQ-Z2
-![Alt text](https://www.amd.com/content/dam/amd/en/images/products/boards/2410750-zynq-xc7z020-board-product.jpg)
+- **FPGA Model:** **PYNQ-Z2**
+<img src="./Figures/PYNQ-Z2-Large-scaled.jpg" alt="Pynq-z2 FPGA" width="400">
+
 - **HLS Tool Version:** Xilinx Vitis HLS 2024.2  
-- **HLS Tool Installation Guide:** - Coming Soon  
-- 
+  - **HLS Tool Installation Guide:** Coming Soon  
+
 ---
 
 ### **Scoring Criteria**
