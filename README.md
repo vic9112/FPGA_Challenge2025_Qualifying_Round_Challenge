@@ -7,7 +7,7 @@ Welcome to the **FPGA Challenge 2025 Qualifying Round**! This competition challe
 ## 🛠 Challenge Overview
 
 - Develop and optimize machine learning models for FPGA implementation.
-- Compete across two tasks: **Image Classification (CIFAR-10)** and **Anomaly Detection (ToyCar)**.
+- Compete the task: **Image Classification (CIFAR-10)**.
 - Evaluate model accuracy, FPGA resource usage, and inference latency.
 
 ---
@@ -17,7 +17,7 @@ Welcome to the **FPGA Challenge 2025 Qualifying Round**! This competition challe
 You can access detailed information about the scoring system and datasets for both tasks via the following links:
 
 - 🖼️ **[Image Classification Task - Kaggle Page](#)** - Coming Soon  
-- 🚨 **[Anomaly Detection Task - Kaggle Page](#)**  - Coming Soon
+
 
 ---
 
