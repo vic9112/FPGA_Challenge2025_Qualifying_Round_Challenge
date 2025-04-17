@@ -6,6 +6,16 @@ Your goal is to design efficient models that **maximize accuracy** while **minim
 
 ---
 
+## 📚 Benchmark Background
+
+This challenge focuses on the **image classification** task using the **CIFAR-10** dataset, based on the MLPerf TinyML Benchmark using hls4ml.
+
+It is adapted from the following reference:
+
+> *Borras, Hendrik, et al. "Open-source FPGA-ML codesign for the MLPerf Tiny Benchmark." arXiv preprint arXiv:2206.11791 (2022)*
+
+---
+
 ## 📁 Repository Structure
 
 This repository contains two main Jupyter Notebooks:
@@ -20,17 +30,39 @@ This repository contains two main Jupyter Notebooks:
    - Path: `Hands-on_Lab/JetTaggingHandOnLab.ipynb`  
    - You can open it directly in Colab:  
      👉 [Open in Colab](https://colab.research.google.com/github/nycu-pcs-lab/FPGA_Challenge2025_Qualifying_Round_Challenge/blob/main/Hands-on_Lab/JetTaggingHandOnLab.ipynb)
+     > ⚠️ Note: Opening the notebook via Colab will create a personal copy for each participant.  
+      > You are free to modify and execute it without affecting others.
+
 
 ---
 
-## 🛠 Challenge Overview
-- 
-- Develop and optimize machine learning models for FPGA implementation.
-- Target task: **Image Classification (CIFAR-10)**.
-- Final results will be evaluated based on the performance of the **hls4ml-converted HLS model**:
-  - Accuracy
-  - FPGA resource usage
-  - Inference latency
+## 🧮 Scoring Criteria
+
+The final score is based **only on the synthesized HLS model**, not the original QKeras model.  
+This is because after converting a QKeras model to HLS, developers are allowed to further **adjust precision settings** (e.g., accumulator precision) to optimize hardware resource usage.  
+These adjustments may affect both **resource usage** and **inference accuracy**, and are **independent from reuse factor settings**.
+
+Your submission will be evaluated based on the following three components:
+
+1. **Accuracy**  
+   - Evaluated using the same **synthetic CIFAR-10 test set** as the Kaggle self-evaluation platform  
+   - Accuracy must be measured using the **C simulation results of the HLS model**
+
+2. **Resource Utilization Constraints**  
+   - Measured using results from **Vivado Logic Synthesis** (not C-Synthesis)  
+   - All four key FPGA resources must remain **below 75% utilization**:
+     - LUTs  
+     - DSPs  
+     - Flip-Flops (FFs)  
+     - Block RAMs (BRAMs)  
+   - The 75% threshold ensures a sufficient margin for successful **Place-and-Route** in potential downstream FPGA implementation
+
+3. **Latency**  
+   - Measured using **RTL simulation**  
+   - Computed by taking the **average cycle count** from 5 inference samples,  
+     then multiplying by the **estimated clock period** reported in the **HLS C-Synthesis** output
+
+> To be eligible for final scoring, your HLS model must satisfy both the **resource constraint** and provide a valid **RTL latency measurement**.
 
 ---
 
@@ -43,7 +75,7 @@ You can access detailed information about the scoring system and datasets on Kag
 
 ---
 
-## 💻 Competition Environment Rules on FPGA and hls
+## 💻 Technical Rules and Constraints
 
 - **Target FPGA Board:** `PYNQ-Z2`  
   <img src="./Figures/PYNQ-Z2-Large-scaled.jpg" alt="PYNQ-Z2 FPGA" width="400">
@@ -51,20 +83,6 @@ You can access detailed information about the scoring system and datasets on Kag
 - **hls4ml Version:** `1.1.0`  
 - **HLS Toolchain:** `Xilinx Vitis HLS 2023.2`  
   - **Installation Guide:** *Coming Soon*
-
----
-
-## 🧮 Scoring Criteria
-
-Your final score will be based on three key components:
-
-- **Accuracy**:  
-  Evaluated using the CIFAR-10-based test set that is same as the one on Kaggle.
-
-- **HLS Synthesis Results** *(provided by your submission)*:
-  - **C Synthesis Results**:
-    - **Resource Usage**: LUTs, DSPs, BRAMs
-    - **Latency**: Inference delay (in seconds)
 
 ---
 
