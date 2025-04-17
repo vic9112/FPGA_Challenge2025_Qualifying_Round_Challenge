@@ -66,7 +66,7 @@ Your submission will be evaluated based on the following three components:
 
 You can access detailed information about the scoring system and datasets on Kaggle for the task via the following links:
 
-- 🖼️ **[Image Classification Task Competition- Kaggle Page](#)** *(for testing your model and flow)*  
+- 🖼️ **[Image Classification Task Competition- Kaggle Page]([#](https://www.kaggle.com/t/6d1444ed9f804d379d13c68a18a2cf58))** *(for testing your model and flow)*  
   → *Note: Final evaluation will be conducted separately and is not based on Kaggle leaderboard.*
 
 ---
