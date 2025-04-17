@@ -1,6 +1,6 @@
 # 🚀 FPGA Challenge 2025 - Qualifying Round
 
-Welcome to the **FPGA Challenge 2025 Qualifying Round**! This competition challenges participants to optimize machine learning models for FPGA deployment using **HLS4ML**. Your goal is to design efficient models that maximize accuracy while minimizing hardware resource usage and latency.
+Welcome to the **FPGA Challenge 2025 Qualifying Round**! This competition challenges participants to optimize machine learning models for FPGA deployment using **hls4ml**. Your goal is to design efficient models that maximize accuracy while minimizing latency under FPGA resource constraints.
 
 ---
 
@@ -27,7 +27,7 @@ You can access detailed information about the scoring system and datasets for bo
 
 - **hls4ml Version:** 1.1.0
  
-- **HLS Tool Version:** Xilinx Vitis HLS 2024.2  
+- **HLS Tool Version:** Xilinx Vitis HLS 2023.2  
   - **HLS Tool Installation Guide:** Coming Soon  
 
 ---
