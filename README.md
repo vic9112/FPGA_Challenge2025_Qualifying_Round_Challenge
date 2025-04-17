@@ -20,7 +20,7 @@ It is adapted from the following reference:
 
 This repository contains two main Jupyter Notebooks:
 
-1. **End-to-End Example for the Kaggle Scoring System**  
+1. **End-to-End Example for the Kaggle Competition**  
    - Path: `End_to_end_examples/imageclassifiaction-qat-hls4ml-end-to-end-example.ipynb`  
    - Includes: model training, quantization-aware training, HLS conversion, and prediction submission workflow  
    - To use: **Download and import the notebook into Kaggle**
@@ -41,8 +41,8 @@ This repository contains two main Jupyter Notebooks:
 Your submission will be evaluated based on the following three components:
 
 1. **Accuracy**  
-   - Evaluated using the same **synthetic CIFAR-10 test set** as the Kaggle self-evaluation platform  
-   - Accuracy must be measured using the **C simulation results of the HLS model**
+   - Evaluated using the same **synthetic CIFAR-10 test set** as the Kaggle competition
+   - Accuracy is measured using the **C simulation results of the HLS model**
 
 2. **Resource Utilization Constraints**  
    - Measured using results from **Vivado Logic Synthesis** (not C-Synthesis)  
