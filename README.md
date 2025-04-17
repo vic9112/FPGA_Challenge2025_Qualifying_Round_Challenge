@@ -21,7 +21,7 @@ It is adapted from the following reference:
 This repository contains two main Jupyter Notebooks:
 
 1. **End-to-End Example for the Kaggle Competition**  
-   - Path: `End_to_end_examples/imageclassifiaction-qat-hls4ml-end-to-end-example.ipynb`  
+   - Path: [`End_to_end_examples/imageclassifiaction-qat-hls4ml-end-to-end-example.ipynb`](https://github.com/nycu-pcs-lab/FPGA_Challenge2025_Qualifying_Round_Challenge/blob/main/End_to_end_examples/imageclassifiaction-qat-hls4ml-end-to-end-example.ipynb)  
    - Includes: model training, quantization-aware training, HLS conversion, and prediction submission workflow  
    - To use: **Download and import the notebook into Kaggle**
     
