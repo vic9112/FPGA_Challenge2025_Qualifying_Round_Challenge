@@ -6,6 +6,22 @@ Your goal is to design efficient models that **maximize accuracy** while **minim
 
 ---
 
+## 📁 Repository Structure
+
+This repository contains two main Jupyter Notebooks:
+
+1. **End-to-End Example for the Kaggle Scoring System**  
+   - Path: `End_to_end_examples/imageclassifiaction-qat-hls4ml-end-to-end-example.ipynb`  
+   - Includes: model training, quantization-aware training, HLS conversion, and prediction submission workflow  
+   - To use: **Download and import the notebook into Kaggle**
+    
+2. **Hands-on Lab Notebook**  
+   - Task: Jet Tagging (for guided lab session)  
+   - Path: `Hands-on_Lab/JetTaggingHandOnLab.ipynb`  
+   - You can open it directly in Colab:  
+     👉 [Open in Colab](https://colab.research.google.com/github/nycu-pcs-lab/FPGA_Challenge2025_Qualifying_Round_Challenge/blob/main/Hands-on_Lab/JetTaggingHandOnLab.ipynb)
+
+---
 
 ## 🛠 Challenge Overview
 - 
@@ -18,7 +34,7 @@ Your goal is to design efficient models that **maximize accuracy** while **minim
 
 ---
 
-## 📊 Performance Scoring System & Dataset
+## 📊 Accuracy Scoring System & Dataset
 
 You can access detailed information about the scoring system and datasets on Kaggle for the task via the following links:
 
