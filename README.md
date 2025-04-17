@@ -31,7 +31,8 @@ This repository contains two main Jupyter Notebooks:
    - You can open it directly in Colab:  
      👉 [Open in Colab](https://colab.research.google.com/github/nycu-pcs-lab/FPGA_Challenge2025_Qualifying_Round_Challenge/blob/main/Hands-on_Lab/JetTaggingHandOnLab.ipynb)
      > ⚠️ Note: Opening the notebook via Colab will create a personal copy for each participant.  
-      > You are free to modify and execute it without affecting others.
+      > You are free to execute it without affecting others.
+     > But you won't be able to modify it. You can duplicate it to your own Google Drive to modify it.
 
 
 ---
