@@ -38,10 +38,6 @@ This repository contains two main Jupyter Notebooks:
 
 ## 🧮 Scoring Criteria
 
-The final score is based **only on the synthesized HLS model**, not the original QKeras model.  
-This is because after converting a QKeras model to HLS, developers are allowed to further **adjust precision settings** (e.g., accumulator precision) to optimize hardware resource usage.  
-These adjustments may affect both **resource usage** and **inference accuracy**, and are **independent from reuse factor settings**.
-
 Your submission will be evaluated based on the following three components:
 
 1. **Accuracy**  
