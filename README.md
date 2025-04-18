@@ -51,7 +51,7 @@ Your submission will be evaluated based on the following three components:
      - Block RAMs (BRAMs)  
    - The 75% threshold ensures a sufficient margin for successful **Place-and-Route** in potential downstream FPGA implementation
 
-3. **Latency: 16.67ms (60 FPS)**  
+3. **Latency: 33.33ms (30 FPS)**  
    - Measured using **RTL simulation**  
    - Computed by taking the **average cycle count** from 5 inference samples,  
      then multiplying by the **estimated clock period** reported in the **HLS C-Synthesis** output
