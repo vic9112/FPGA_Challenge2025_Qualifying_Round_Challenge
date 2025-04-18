@@ -3,6 +3,7 @@
 Welcome to the **FPGA Challenge 2025 Qualifying Round**!  
 This competition challenges participants to optimize machine learning models for FPGA deployment using **hls4ml**.  
 Your goal is to design efficient models that **maximize accuracy** while **minimizing latency** under FPGA resource constraints.
+[說明會 Slide連結](https://docs.google.com/presentation/d/1OIOMooFQwtG3PbOmsHJBCioEiUcM4BC_snaBOUiuI5U/edit?usp=sharing)
 
 ---
 
