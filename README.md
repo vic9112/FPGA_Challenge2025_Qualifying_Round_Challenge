@@ -38,7 +38,7 @@ This repository contains two main Jupyter Notebooks:
 
 Your submission will be evaluated based on the following three components:
 
-1. **Accuracy**  
+1. **Accuracy: 60%**  
    - Evaluated using the same **synthetic CIFAR-10 test set** as the Kaggle competition
    - Accuracy is measured using the **C simulation results of the HLS model**
 
@@ -51,7 +51,7 @@ Your submission will be evaluated based on the following three components:
      - Block RAMs (BRAMs)  
    - The 75% threshold ensures a sufficient margin for successful **Place-and-Route** in potential downstream FPGA implementation
 
-3. **Latency**  
+3. **Latency: 16.67ms (60 FPS)**  
    - Measured using **RTL simulation**  
    - Computed by taking the **average cycle count** from 5 inference samples,  
      then multiplying by the **estimated clock period** reported in the **HLS C-Synthesis** output
