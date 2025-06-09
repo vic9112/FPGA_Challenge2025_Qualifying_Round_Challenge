@@ -78,7 +78,7 @@ You can access detailed information about the scoring system and datasets on Kag
 
 - **hls4ml Version:** `1.1.0`  
 - **HLS Toolchain:** `Xilinx Vitis HLS 2023.2`  
-  - **Installation Guide:** *Coming Soon*
+  - **Installation Guide:** [Instruction PDF](https://github.com/nycu-pcs-lab/FPGA_Challenge2025_Qualifying_Round_Challenge/VitisHLS_Installtion_Tutorial/Vitis-hls-install-tutorial.pdf) 
 
 ---
 
